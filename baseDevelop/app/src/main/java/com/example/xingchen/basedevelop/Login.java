@@ -36,6 +36,8 @@ private EditText username,passworld;
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent=new Intent(Login.this,MainActivity.class);
+                startActivity(intent);
                 VolleysPostString volleysPostString=new VolleysPostString("url",context);
                 volleysPostString.post();
             }
