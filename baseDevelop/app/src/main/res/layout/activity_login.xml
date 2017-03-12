@@ -45,7 +45,7 @@
                         android:src="@drawable/login_user" />
 
                     <EditText
-                        android:id="@+id/log_textview1"
+                        android:id="@+id/log_username"
                         android:layout_width="240dp"
                         android:layout_height="wrap_content"
                         android:background="@null"
@@ -81,7 +81,7 @@
 
                     <EditText
 
-                        android:id="@+id/log_textview2"
+                        android:id="@+id/log_password"
                         android:layout_width="240dp"
                         android:layout_height="wrap_content"
                         android:background="@null"

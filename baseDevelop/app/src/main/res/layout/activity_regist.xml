@@ -39,14 +39,13 @@
             android:layout_width="40dp"
             android:layout_height="40dp" />
 
-            <TextView
-                android:textColor=""
+            <EditText
                 android:gravity="center"
                 android:textSize="20dp"
                 android:hint="请输入用户名"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/textView" />
+                android:id="@+id/re_username" />
         </LinearLayout>
 
         <LinearLayout
@@ -57,8 +56,8 @@
                 android:src="@drawable/password"
                 android:layout_width="40dp"
                 android:layout_height="40dp" />
-            <TextView
-                android:textColor=""
+            <EditText
+                android:id="@+id/re_password"
                 android:gravity="center"
                 android:textSize="20dp"
                 android:hint="请输入密码"
@@ -74,8 +73,8 @@
                 android:src="@drawable/phonenumber"
                 android:layout_width="40dp"
                 android:layout_height="40dp" />
-            <TextView
-                android:textColor=""
+            <EditText
+                android:id="@+id/re_phonenumber"
                 android:gravity="center"
                 android:textSize="20dp"
                 android:hint="请输入手机号"
@@ -90,8 +89,8 @@
                 android:src="@drawable/mailbox"
                 android:layout_width="40dp"
                 android:layout_height="40dp" />
-            <TextView
-                android:textColor=""
+            <EditText
+                android:id="@+id/re_email"
                 android:gravity="center"
                 android:textSize="20dp"
                 android:hint="请输入邮箱"
@@ -106,8 +105,8 @@
                 android:src="@drawable/homeaddress"
                 android:layout_width="40dp"
                 android:layout_height="40dp" />
-            <TextView
-                android:textColor=""
+            <EditText
+                android:id="@+id/re_homeaddress"
                 android:gravity="center"
                 android:textSize="20dp"
                 android:hint="请输通讯地址"
@@ -120,6 +119,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <Button
+        android:id="@+id/re_regist"
         android:background="@drawable/shape_center"
         android:textSize="30dp"
        android:gravity="center"
