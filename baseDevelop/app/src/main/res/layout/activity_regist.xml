@@ -31,7 +31,7 @@
         </LinearLayout>
 
         <LinearLayout
-        android:paddingTop="10dp"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageView
@@ -41,7 +41,7 @@
 
             <EditText
                 android:gravity="center"
-                android:textSize="20dp"
+                android:textSize="30px"
                 android:hint="请输入用户名"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -59,7 +59,7 @@
             <EditText
                 android:id="@+id/re_password"
                 android:gravity="center"
-                android:textSize="20dp"
+                android:textSize="30px"
                 android:hint="请输入密码"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
@@ -76,7 +76,7 @@
             <EditText
                 android:id="@+id/re_phonenumber"
                 android:gravity="center"
-                android:textSize="20dp"
+                android:textSize="30px"
                 android:hint="请输入手机号"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
@@ -92,7 +92,7 @@
             <EditText
                 android:id="@+id/re_email"
                 android:gravity="center"
-                android:textSize="20dp"
+                android:textSize="30px"
                 android:hint="请输入邮箱"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
@@ -108,7 +108,7 @@
             <EditText
                 android:id="@+id/re_homeaddress"
                 android:gravity="center"
-                android:textSize="20dp"
+                android:textSize="30px"
                 android:hint="请输通讯地址"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
